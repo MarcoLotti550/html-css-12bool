@@ -1,0 +1,58 @@
+*{
+    font-size: 12px;
+}
+[class*="col"] {
+    color: #FFF;
+    border: 1px solid white;
+    background-color: #006CFA;
+    text-align: center;
+    padding: 10px;
+    min-height: 50px;
+    line-height: 28px;
+    vertical-align: middle;
+}
+.container-fluid {
+    margin-bottom: 20px;
+}
+
+.col-xs-6 div,
+.col-xs-7 div,
+.col-xs-5 div,
+.around div,
+.between div {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.left{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.right{
+    justify-content: flex-end;
+}
+
+.double{
+    height: 100px;
+}
+.normal{
+    height: 50px;
+}
+.top{
+    align-items: flex-start;
+}
+.middle{
+    align-items: center;
+}
+.bottom{
+    align-items: flex-end;
+}
+
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
